@@ -20,7 +20,6 @@
 		3032B954180736C900064F85 /* DEMOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B953180736C900064F85 /* DEMOFirstViewController.m */; };
 		3032B958180736E200064F85 /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B957180736E200064F85 /* DEMOSecondViewController.m */; };
 		3032B95E1807372B00064F85 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B95D1807372B00064F85 /* DEMOLeftMenuViewController.m */; };
-		3076CE171809B5EF00527E6C /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076CE121809B5EF00527E6C /* RECommonFunctions.m */; };
 		3076CE181809B5EF00527E6C /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076CE141809B5EF00527E6C /* RESideMenu.m */; };
 		3076CE191809B5EF00527E6C /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076CE161809B5EF00527E6C /* UIViewController+RESideMenu.m */; };
 		30FE3D1F18AB3B6A003F59ED /* DEMORightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FE3D1E18AB3B6A003F59ED /* DEMORightMenuViewController.m */; };
@@ -56,8 +55,6 @@
 		3032B957180736E200064F85 /* DEMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOSecondViewController.m; sourceTree = "<group>"; };
 		3032B95C1807372B00064F85 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
 		3032B95D1807372B00064F85 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
-		3076CE111809B5EF00527E6C /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
-		3076CE121809B5EF00527E6C /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		3076CE131809B5EF00527E6C /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
 		3076CE141809B5EF00527E6C /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
 		3076CE151809B5EF00527E6C /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
@@ -161,8 +158,6 @@
 		3076CE101809B5EF00527E6C /* RESideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				3076CE111809B5EF00527E6C /* RECommonFunctions.h */,
-				3076CE121809B5EF00527E6C /* RECommonFunctions.m */,
 				3076CE131809B5EF00527E6C /* RESideMenu.h */,
 				3076CE141809B5EF00527E6C /* RESideMenu.m */,
 				3076CE151809B5EF00527E6C /* UIViewController+RESideMenu.h */,
@@ -273,7 +268,6 @@
 				3032B95E1807372B00064F85 /* DEMOLeftMenuViewController.m in Sources */,
 				3032B9231807338200064F85 /* DEMOAppDelegate.m in Sources */,
 				3032B958180736E200064F85 /* DEMOSecondViewController.m in Sources */,
-				3076CE171809B5EF00527E6C /* RECommonFunctions.m in Sources */,
 				3076CE191809B5EF00527E6C /* UIViewController+RESideMenu.m in Sources */,
 				30FE3D1F18AB3B6A003F59ED /* DEMORightMenuViewController.m in Sources */,
 			);
@@ -386,7 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RESideMenuExample/RESideMenuExample-Prefix.pch";
 				INFOPLIST_FILE = "RESideMenuExample/RESideMenuExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -401,7 +395,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RESideMenuExample/RESideMenuExample-Prefix.pch";
 				INFOPLIST_FILE = "RESideMenuExample/RESideMenuExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
