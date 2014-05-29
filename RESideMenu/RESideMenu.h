@@ -28,7 +28,7 @@
 
 @protocol RESideMenuDelegate;
 
-@interface RESideMenu : UIViewController <UIGestureRecognizerDelegate>
+@interface RESideMenu : NTVViewController <UIGestureRecognizerDelegate>
 
 @property (strong, readwrite, nonatomic) UIViewController *contentViewController;
 @property (strong, readwrite, nonatomic) UIViewController *leftMenuViewController;
