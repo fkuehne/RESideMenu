@@ -36,6 +36,7 @@
 @property (strong, readwrite, nonatomic) UIButton *contentButton;
 @property (strong, readwrite, nonatomic) UIView *menuViewContainer;
 @property (strong, readwrite, nonatomic) UIView *contentViewContainer;
+@property (strong, readwrite, nonatomic) UIView *disabledContentView;
 @property (assign, readwrite, nonatomic) BOOL didNotifyDelegate;
 
 @end
@@ -152,6 +153,16 @@
             }
         }];
     }
+}
+
+- (void)enableContentViewContainer
+{
+    self.contentViewContainer.hidden = NO;
+}
+
+- (void)disableContentViewContainer
+{
+    self.contentViewContainer.hidden = YES;
 }
 
 #pragma mark View life cycle

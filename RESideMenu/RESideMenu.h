@@ -70,6 +70,9 @@
 - (void)hideMenuViewController;
 - (void)setContentViewController:(UIViewController *)contentViewController animated:(BOOL)animated;
 
+- (void)disableContentViewContainer;
+- (void)enableContentViewContainer;
+
 @end
 
 @protocol RESideMenuDelegate <NSObject>
